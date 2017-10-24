@@ -1,3 +1,10 @@
+## 1.4.3 (Unreleased)
+
+### Added
+#### RFPBundle
+* Added new email template `request_create_confirmation`. It will be send when guest customer user create new request for quote.
+* Added new twig function `rfp_products` that returns list of request products (formatted) for current request for quote. Can be used in email templates.
+
 ## 1.4.0 (2017-09-29)
 [Show detailed list of changes](incompatibilities-1-4.md)
 
